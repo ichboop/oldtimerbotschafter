@@ -1,3 +1,25 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+body {
+    font-size: var(--font-sizes-body-sm-desktop);
+    color: var(--color-grey-800);
+    font-weight: 415;
+    font-stretch: 103%;
+}
+
+html {
+    font-family: AktivGrotesk,Arial,sans-serif;
+    font-size: 10px;
+    min-width: 320px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+        /* box-sizing: border-box; */
+    -moz-tab-size: 4;
+    tab-size: 4;
+    -webkit-text-size-adjust: 100%;
+    /* box-sizing: border-box; */
+    -moz-tab-size: 4;
+    tab-size: 4;
+    -webkit-text-size-adjust: 100%;
+}
