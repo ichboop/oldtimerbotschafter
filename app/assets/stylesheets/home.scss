@@ -38,11 +38,18 @@ p {
 
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .border {
   padding: 10%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  overflow-y: scroll;
+  background-color: #eaeaea;
+  display: block;
 }
 
 .flex-container-big {
@@ -106,4 +113,34 @@ p {
     color: #2D882D!important;
     cursor: pointer;
   }
+}
+
+#home {
+  margin-top: -200px;
+  padding-top: 200px;
+}
+
+#Unsere_Kunden {
+  margin-top: -200px;
+  padding-top: 200px;
+}
+
+#S_u_V {
+  margin-top: -200px;
+  padding-top: 200px;
+}
+
+#Preise_und_Kosten {
+  margin-top: -200px;
+  padding-top: 200px;
+}
+
+#Uber_uns {
+  margin-top: -200px;
+  padding-top: 200px;
+}
+
+#Kontakt {
+  margin-top: -200px;
+  padding-top: 200px;
 }
