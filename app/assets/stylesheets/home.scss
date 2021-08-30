@@ -10,7 +10,8 @@ body {
 }
 
 html {
-    font-family: AktivGrotesk,Arial,sans-serif;
+    font-family: 'Noto Serif KR', serif;
+    font-family: 'PT Serif', serif;
     font-size: 10px;
     min-width: 320px;
     -webkit-font-smoothing: antialiased;
@@ -37,11 +38,12 @@ h2 {
 
 p {
 font-size: 18px;
+color: rgb(78, 78, 78)!important;
 }
 
 .image {
   height: 300px;
-  border-radius: 5%;
+  // border-radius: 5%;
   object-fit: cover;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
 }
@@ -54,7 +56,7 @@ font-size: 18px;
   justify-content: space-between;
   overflow-y: scroll;
   background-image: url("road_car.jpeg");
-  // background-image: url("dessert_road.jpeg");
+  // background-image: url("MCO2020_01276-scaled.jpeg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -70,7 +72,7 @@ font-size: 18px;
   margin-top: 40px;
   margin-bottom: 200px;
   background: white;
-  border-radius: 0 1% 1% 0;
+  // border-radius: 0 1% 1% 0;
   margin-right: 8%;
 }
 
@@ -82,7 +84,7 @@ font-size: 18px;
   margin-top: 40px;
   margin-bottom: 200px;
   background: white;
-  border-radius: 1% 0 0 1%;
+  // border-radius: 1% 0 0 1%;
   margin-left: 8%;
 }
 
