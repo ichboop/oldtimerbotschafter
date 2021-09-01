@@ -34,8 +34,11 @@ h1 {
 }
 
 h2 {
-  color: white;
-  font-size: 25px !important;
+  color: black;
+  font-size: 36px !important;
+  background-color: white;
+  padding: 1%;
+  opacity: 0.65;
 }
 
 p {
@@ -58,18 +61,83 @@ color: rgb(78, 78, 78)!important;
   justify-content: space-between;
   overflow-y: scroll;
   // background-image: url("road_car.jpeg");
-  background-image: url("MCO2020_01276-scaled.jpeg");
+  // background-image: url("MCO2020_01276-scaled.jpeg");
   // background-image: url("silver_car_road.jpeg");
   // background-image: url("white_car_field.jpeg");
   // background-image: url("yellow_car_road.jpeg");
   // background-image: url("ford_canyon.jpeg");
   // background-image: url("pwd_IMG_2712.jpeg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: 1920px 1235px;
+  // background-repeat: no-repeat;
+  // background-attachment: fixed;
+  // background-position: center;
+  // background-size: 1920px 1235px;
   display: block;
 }
+
+// parallax start
+
+.flex-container-big {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  // margin-top: 130px;
+  // margin-bottom: 600px;
+  background: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bgimg-1 {
+  background-image: url(MCO2020_01276-scaled.jpeg);
+  min-height: 500px;
+}
+
+.bgimg-2 {
+  background-image: url(silver_car_road.jpeg);
+  min-height: 500px;
+}
+
+.bgimg-3 {
+  background-image: url(car_park.jpeg);
+  min-height: 500px;
+}
+
+.bgimg-4 {
+  background-image: url(yellow_car_road.jpeg);
+  min-height: 500px;
+}
+
+.bgimg-5 {
+  background-image: url(j_outside.jpeg);
+  min-height: 500px;
+}
+
+.bgimg-6 {
+  background-image: url(m_inside.jpeg);
+  min-height: 500px;
+}
+
+.bgimg-7 {
+  background-image: url(MCO2020_01276-scaled.jpeg);
+  min-height: 500px;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7 {
+    position: relative;
+    // opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1920px 1235px;
+}
+
+.caption-p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 200px;
+}
+
+// parallax end
 
 .flex-container-big_l {
   display: flex;
@@ -184,11 +252,26 @@ color: rgb(78, 78, 78)!important;
   display: flex;
   justify-content: center;
   padding-bottom: 10px;
-  padding-top: 20px;
+  padding-top: 325px;
+}
+
+.top-b {
+  height: 70px;
+//   margin-top: 10px;
+//   padding-bottom: 10px;
+  filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(20deg) brightness(105%) contrast(101%);
+}
+
+.text-i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 35px;
 }
 
 #top {
   text-decoration: none;
+  max-height: 20px;
 }
 
 #top:hover {
@@ -206,3 +289,7 @@ color: rgb(78, 78, 78)!important;
     cursor: pointer;
 }
 
+#impressum {
+  color: white !important;
+  // font-size: 12px !important;
+}
