@@ -42,7 +42,7 @@
   display: flex;
   justify-content: center;
   padding-bottom: 10px;
-  padding-top: 20px;
+  padding-top: 27px;
 }
 
 .headers {
@@ -54,10 +54,20 @@
   flex-direction: row;
   justify-content: space-evenly;
   height: 40px;
-  padding-top: 18px;
+  padding-top: 14px;
 }
 
 .head:hover {
   // border-bottom: solid;
   // border-color: black;
+}
+
+.icon {
+    height: 80px;
+    margin-bottom: -25px;
+}
+
+.title_icon {
+  display: flex;
+  justify-content: center;
 }
